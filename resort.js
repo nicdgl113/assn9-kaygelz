@@ -109,6 +109,18 @@ function sheet2(e) {
 }
 
 
+///check for cookie userName
+window.onload = function checkCookie (guest) {
+  var userName = getCookie("userName");
+  if userName !="" {
+    document.cookie = `Welcome ${userName}`;
+  } else {
+     userName = prompt ("What is your name please?", "");
+     document.querySelector().innerHTML = `Welcome ${userName}`;
+  }
+  }
+
+}
 
 
 
