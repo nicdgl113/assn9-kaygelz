@@ -112,7 +112,7 @@ function sheet2(e) {
 ///check for cookie userName
 window.onload = function checkCookie (guest) {
   var userName = getCookie("userName");
-  if userName !="" {
+  if (userName !="") {
     document.cookie = `Welcome ${userName}`;
   } else {
      userName = prompt ("What is your name please?", "");
@@ -123,7 +123,7 @@ window.onload = function checkCookie (guest) {
     }
   }
 
-}
+
 
 
 
@@ -131,4 +131,6 @@ window.onload = function checkCookie (guest) {
 sheet();
 sheet2();
 alarm();
+checkCookie();
+setCookie();
 
