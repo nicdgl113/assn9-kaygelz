@@ -9,8 +9,8 @@ Author:      Reginald McPherson
 Date:        Jan 26th, 2021
 
 KAYLEE GELZ
-MARCH 9
-ASSIGNMENT 8
+MARCH 23
+ASSIGNMENT 9
 
 Filename: resort.js
 */
@@ -63,8 +63,11 @@ audio.appendChild(source);
 document.querySelector("main section").appendChild(audio);
 
 /// add alark clock 
-function alarm() {
-    var alarmClock = prompt("How many seconds for alarm?")
+function setTimeout() {
+
+var time = prompt("How many seconds for alarm?")
+
+
 
 
 }
