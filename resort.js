@@ -117,7 +117,10 @@ window.onload = function checkCookie (guest) {
   } else {
      userName = prompt ("What is your name please?", "");
      document.querySelector().innerHTML = `Welcome ${userName}`;
+  if (userName != null) {
+    setCookie("guest");
   }
+    }
   }
 
 }
