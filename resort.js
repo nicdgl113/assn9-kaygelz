@@ -129,6 +129,11 @@ window.onload = function checkCookie (guest) {
     btnThemeCookie.addEventListener("click", ThemeCookie);
   };
 
+  ///Theme cookie function
+  function ThemeCookie () {
+    if 
+  }
+
 
 
 
@@ -138,4 +143,4 @@ sheet2();
 alarm();
 checkCookie();
 setCookie();
-
+ThemeCookie();
