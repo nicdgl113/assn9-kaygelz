@@ -110,7 +110,7 @@ function sheet2(e) {
 
 
 ///check for cookie userName
-window.onload = function checkCookie (guest) {
+window.onload = function checkCookie (userName) {
   var userName = getCookie("userName");
   if (userName !="") {
     document.cookie = `Welcome ${userName}`;
@@ -131,10 +131,20 @@ window.onload = function checkCookie (guest) {
 
   ///Theme cookie function
   function ThemeCookie () {
-    if 
+    let cookieValue = document.getElementsByClassName("darkTheme");
+    document.cookie = `${cookieValue}`;
+    document.querySelector("output").innerHTML = 
   }
 
+  ///check for theme cookie
+  windows.onload = function checkCookie() {
+  var Theme = getCookie("Theme");
+  if ("Theme") {
 
+  } else {
+
+  }
+  }
 
 
 ////call functions
