@@ -116,13 +116,18 @@ window.onload = function checkCookie (guest) {
     document.cookie = `Welcome ${userName}`;
   } else {
      userName = prompt ("What is your name please?", "");
-     document.querySelector().innerHTML = `Welcome ${userName}`;
+     document.querySelector("output").innerHTML = `Welcome ${userName}`;
   if (userName != null) {
     setCookie("guest");
   }
     }
   }
 
+  ///button theme
+  btnDark.onclick = function () {
+    let btnThemeCookie = document.querySelectorAll("button")[0];
+    btnThemeCookie.addEventListener("click", ThemeCookie);
+  };
 
 
 
